@@ -1,0 +1,12 @@
+ID - SMALLINT - Primary Key, UNIQUE, AUTO_INCREMENT, NOT_NULL
+brand - VARCHAR(50) - NOT_NULL
+model - VARCHAR(50) - NOT_NULL
+license_plate - VARCHAR(10) - UNIQUE, NOT_NULL
+matriculation_date - DATE - NOT_NULL
+origin_country - VARCHAR(50) - NOT_NULL
+km - MEDIUMINT - NOT_NULL
+owners - TINYINT - NULL, DEFAULT(1)
+accidents_number - TINYINT - NULL
+accident_info - TEXT - NULL
+price - MEDIUMINT - NOT_NULL
+discount - MEDIUMINT - NULL
